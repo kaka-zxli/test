@@ -1,0 +1,27 @@
+<volume>
+    <name>xxx</name>
+    <capacity unit="M"></capacity>
+    <allocation unit="M"></allocation>
+    <target>
+        <!--
+        raw: a plain file
+        bochs: Bochs disk image format
+        cloop: compressed loopback disk image format
+        cow: User Mode Linux disk image format
+        dmg: Mac disk image format
+        iso: CDROM disk image format
+        qcow: QEMU v1 disk image format
+        qcow2: QEMU v2 disk image format
+        qed: QEMU Enhanced Disk image format
+        vmdk: VMWare disk image format
+        vpc: VirtualPC disk image format
+                -->
+        <format type='qcow2'/>
+    </target>
+
+    <!--链接克隆-->
+    <!--<backingStore>-->
+        <!--<path>/root/xp.qcow2</path>-->
+        <!--<format type='qcow2'/>-->
+    <!--</backingStore>-->
+</volume>
